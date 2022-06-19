@@ -1,4 +1,4 @@
-name^ Iryna Shklianik[D[D[D[D[D[D[D[D[D[D[D[D[D[D[D[:[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+name: Iryna Shklianik
 age: 43
 number of pets: 1
 expected salary: 6000_USD
