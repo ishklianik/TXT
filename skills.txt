@@ -1,0 +1,7 @@
+skill1: gitbash
+skill2: github
+skill3: Postman
+skill4: Charles
+skill5: JS
+skill6: SOAP UI
+skill7: Katalon

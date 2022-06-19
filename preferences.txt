@@ -1,0 +1,5 @@
+favourite film: Love Actually
+favorite series: Broen
+favourite food: Asian cuisine
+favorite season: Summer
+country to visit: Singapore
