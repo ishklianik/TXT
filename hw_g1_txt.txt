@@ -1,0 +1,123 @@
+TXT
+
+1. Создание внешнего репозитория TXT
+ зайти на Github, нажать +, выбрать new repository, 
+написать название репозитория TXT
+
+2. Клонировать репозиторий TXT на локальный компьютер
+
+$ git clone https://github.com/ishklianik/TXT.git
+
+3.Внутри локального  репозитория TXT создать файл new.xml:
+
+заходим на репозиторий на внутреннем диске:
+  $ cd XML
+
+создаем файл new.xml:
+$ touch new.txt
+  
+проверяем создание, смотрим список папок/файлов:
+$ ls -la
+
+4. Добавить файл под git
+$ git add new.txt
+
+5. Закоммитить файл
+$ git commit -m "New file"
+
+6. Отправить файл на внешний GitHub репозиторий
+ $ git push 
+
+7. Отредактировать содержимое файла new.txt -написать информацию о себе
+ (ФИО,возраст, количество домашних животных, желаемая будущая зарплата)
+
+$ cat >> new.xml
+name: Iryna Shklianik
+age: 43
+number of pets: 1
+expected salary: 6000_USD
+
+8.Отправить изменения на внешний репозиторий
+проверка:
+$ git status
+
+добавление:
+$ git add new.txt 
+коммит:
+$ git commit -m "update"
+пуш:
+$ git push
+
+9. Создать  файл preferences.xml
+ 
+$ touch preferences.txt 
+
+10.  В файл preferences.xml добавить информацию о своих предпочтениях(Любимый фильм, 
+любимый сериал. любимая еда. время года. страна которую хотели бы посетить
+
+$ cat >> preferences.txt 
+favourite film: Love Actually
+favorite series: Broen
+favourite food: Asian cuisine
+favorite season: Summer
+country to visit: Singapore
+
+11. Создать файл skills.txt , добавить информацию о скиллах которые будут изучены на курсе: 
+ создание файла:
+$ touch  skills.txt 
+
+внесение информации в пустой файл:
+
+$ cat >> skills.txt 
+skill1: gitbash
+skill2: github
+skill3: Postman
+skill4: Charles
+skill5: JS
+skill6: SOAP UI
+skill7: Katalon
+
+ 12. Сделать commit в одну строку
+
+проверка:
+$ git status
+
+добавление нескольких файлов (всех):
+ $ git add .
+
+коммит
+$ git commit -m "Add two files"
+
+13. Отправить сразу 2 файла на внешний репозиторий
+ $ git push
+
+проверка:
+ $ git status
+
+14. На веб интерфейсе создать файл bug_report.txt 
+Нажать  ADD file
+
+15.  Сделать Commit changes (сохранить)  изменения на веб интерфейсе
+Нажать Commit changes
+
+16. На веб интерфейсе модифицировать файл bug_report.txt , добавить баг-репорт в формате txt 
+Открыть файл нажав на него
+Внести информацию
+
+17. Сделать Commit changes (сохранить)  изменения на веб интерфейсе
+Нажать Commit changes  внизу файла
+
+18. Синхронизировать внешний и локальный репозиторий xml
+проверка статуса:
+$ git status
+  
+$ git fetch
+
+проверка статуса:
+ $ git status
+
+отправка файлов на локальный репозиторий
+$ git pull
+
+проверка статуса:
+  $ git status
